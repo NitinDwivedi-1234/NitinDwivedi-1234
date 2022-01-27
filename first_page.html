@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        
+        img{
+            height: 100vh;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100vw;
+            position: relative;
+            z-index: 3;
+        }
+        a{
+            
+            color: yellow;
+            font-size: 50px;
+            position: absolute;
+            text-decoration: none;
+            border: 3px solid yellow;
+            background-color: black;
+            padding: 10px 40px;
+            top: 40px;
+            left: 45%;
+            display: block;
+           
+            border-radius: 30px;
+            z-index: 4;
+        }
+        
+        a:hover{
+            background-color: rgb(29, 27, 27);
+            color: rgb(255, 255, 255);
+            box-shadow: 10px 10px 50px 10px rgb(0, 255, 255);
+            animation-name: nitin;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+        }
+        @keyframes nitin {
+            0%{
+                transform: rotate(10deg);
+
+            }
+            50%{
+                transform: rotate(-10deg);
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <a href="game.html">Play</a>
+    <audio loop autoplay src="0101. Extreme - AShamaluevMusic.mp3" type="audio/mp3" id="audio1">
+	</audio> 
+    <img src="https://s.yimg.com/ny/api/res/1.2/Faz03X0eOF008m88.ww9eg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTMyMA--/https://s.yimg.com/uu/api/res/1.2/XjPxurH5uPJOXDyqEqSG7g--~B/aD00MDA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/car_and_driver_581/4b7842973c4d0cf61ac4516a7413bd5d" alt="loading" class="road">
+    
+
+</body>
+
+</html>
